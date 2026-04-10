@@ -1,4 +1,4 @@
-#Week 1: Basics – Variables, Data Types, Input/Output, Loops, Conditionals
+"""#Week 1: Basics – Variables, Data Types, Input/Output, Loops, Conditionals
 
 
 #Write a Python program to swap two variables
@@ -31,4 +31,23 @@ else :
 #Create a program that prints the multiplication table of a given number.
 num = int(input("enterthe number"))
 for i in range(1 , 11):
-    print(num,"x",i,"=",num*i)
+    print(num,"x",i,"=",num*i)"""
+
+######################
+"""#Q5. Write a program to find the largest of three numbers.
+num1 = int(input("enter num1 :"))
+num2 = int(input("enter num2 :"))
+num3 = int(input("enter num3 :"))
+
+if  num1 >= num2 and num1 >= num3:
+    print(num1,  "is the largest number ")
+elif num2 >= num1 and num2 >= num3:
+    print(num2 , "is the largest number ")
+else:
+    print(num3 , "is the largest number")"""
+
+
+#Q6. Convert temperature from Celsius to Fahrenheit
+clesius = float(input("enter the temperature in celsius "))
+fahrenheit = (clesius * 9/5) + 32
+print(clesius, "degree celsius is equal to ", fahrenheit, "degree fahrenheit")
